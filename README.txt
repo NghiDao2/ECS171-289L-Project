@@ -14,12 +14,11 @@ https://colab.research.google.com/drive/1sjy9odlSSy0RBVgMTgP7s99NXsqglsUL?usp=sh
 
 
 The training notebook can be ran to train the model, but we also provided in the folder our trained model that can be loaded into the notebook.
-The configurations of the pretrained models are the ones loaded into the notebook by default.
-If you are using the pretrained models, make sure to load the following models:
-pretrained_mamba_model.pth
-pretrained_avg_mamba_model.pth
-pretrained_transformer_model.pth
-pretrained_avg_transformer_model.pth
+
+Run:
+dit_mamba_train.ipynb
+unet_train.ipynb
+
 
 The average models is a scaled average of all the models during training and provides more stable predictions while the normal model is simply the model after the last iteration of training
 
